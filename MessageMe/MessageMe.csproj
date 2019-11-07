@@ -5,8 +5,13 @@
     <AssemblyName>Message.Me</AssemblyName>
     <RootNamespace>Message.sMe</RootNamespace>
     <Authors>Gaurav Shah</Authors>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>Library for File based IPC messaging</Description>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Description>File based Inter Process Communication (IPC) library for .NET applications</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/shah-gaurav/message-me</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shah-gaurav/message-me</RepositoryUrl>
+    <PackageTags>ipc MessageMe Interprocess communication .NET .NETCore NETStandard</PackageTags>
+    <PackageLicenseExpression></PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +23,13 @@
     <Reference Include="WindowsBase">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\WindowsBase.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
